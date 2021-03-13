@@ -16,56 +16,7 @@
 			<li><a href="https://discord.com/invite/u2UM3tf" target="_blank">Сервер поддержки</a></li>
 		</ul>
 	</header>
-	<div id="main" class="main">
-		<div id="cat" class="cat">
-			<h1>Категории</h1>
-			<button class="category active" onclick="filterSelection('all')">
-				<i class="fas fa-border-all"></i>
-				<p>Все</p>
-			</button>
-			<button class="category" onclick="filterSelection('moderation')">
-				<i class="fas fa-shield-alt"></i>
-				<p>Модерация</p>
-			</button>
-			<button class="category" onclick="filterSelection('fun')">
-				<i class="fas fa-grin-tears"></i>
-				<p>Fun команды</p>
-			</button>
-			<button class="category" onclick="filterSelection('utils')">
-				<i class="fas fa-cog"></i>
-				<p>Утилиты</p>
-			</button>
-			<button class="category" onclick="filterSelection('nsfw')">
-				<i class="fas fa-minus-circle"></i>
-				<p>NSFW</p>
-			</button>
-			<button class="category" onclick="filterSelection('economy')">
-				<i class="fas fa-money-bill-wave"></i>
-				<p>Экономика</p>
-			</button>
-			<button class="category" onclick="filterSelection('verification')">
-				<i class="fas fa-user-check"></i>
-				<p>Верификация</p>
-			</button>
-			<button class="category" onclick="filterSelection('antispam')">
-				<i class="fa fa-wrench"></i>
-				<p>Антиспам</p>
-			</button>
-			<button class="category" onclick="filterSelection('music')">
-				<i class="fas fa-music"></i>
-				<p>Музыка</p>
-			</button>
-			<button class="category" onclick="filterSelection('games')">
-				<i class="fas fa-gamepad"></i>
-				<p>Игры</p>
-			</button>
-			<button class="category" onclick="filterSelection('tickets')">
-				<i class="fa fa-ticket"></i>
-				<p>Тикеты</p>
-			</button>
-		</div>
-
-		<div id="commands" class="commands">
+	<div id="commands" class="commands">
 			<button class="collapsible moderation"><strong class="command">!checkroles </strong> - Бот удалит дубликаты ролей</button>
 			<div class="content">
 		  		<p><strong>Как использовать:</strong> <pre>!checkroles</pre><strong>Замечания:</strong> <pre>Напишите команду и ждите</pre></p>
@@ -516,7 +467,7 @@
 
 			<button class="collapsible music"><strong class="command">!play</strong> - Для того, чтобы бот играл трек, укажите ссылку или название песни</button>
 			<div class="content">
-					<p><strong>Как использовать:</strong> <pre>!play</pre><strong>Замечания:</strong> <pre>Некоторые платформы типа Spotify не поддерживаются.</pre></p>
+					<p><strong>Как использовать:</strong> <pre>play</pre><strong>Замечания:</strong> <pre>Некоторые платформы типа Spotify не поддерживаются.</pre></p>
 			</div>
 
 			<button class="collapsible music"><strong class="command">!pause</strong> - Поставить плеер на паузу</button>
@@ -536,42 +487,42 @@
 
 			<button class="collapsible music"><strong class="command">!skip</strong> - Пропустить песню, если Вы DJ или Администратор, либо проголосовать за пропуск песни</button>
 			<div class="content">
-					<p><strong>Как использовать:</strong> <pre>!skip</pre><strong>Замечания:</strong> <pre>Не обязательно прописывать команду, т.к она реализована в интерактивном плеере.</pre></p>
+					<p><strong>Как использовать:</strong> <pre>skip</pre><strong>Замечания:</strong> <pre>Не обязательно прописывать команду, т.к она реализована в интерактивном плеере.</pre></p>
 			</div>
 
 			<button class="collapsible music"><strong class="command">!stop</strong> - Остановить плеер, если Вы DJ или Администратор, либо проголосовать за остановку плеера</button>
 			<div class="content">
-					<p><strong>Как использовать:</strong> <pre>!</pre><strong>Замечания:</strong> <pre>Не обязательно прописывать команду, т.к она реализована в интерактивном плеере.</pre></p>
+					<p><strong>Как использовать:</strong> <pre>stop</pre><strong>Замечания:</strong> <pre>Не обязательно прописывать команду, т.к она реализована в интерактивном плеере.</pre></p>
 			</div>
 
 			<button class="collapsible music"><strong class="command">!volume, vol [число]</strong> - Изменить громкость плеера. Доступно только для DJ или Администратора</button>
 			<div class="content">
-					<p><strong>Как использовать:</strong> <pre>!volume</pre><strong>Замечания:</strong> <pre>Не обязательно прописывать команду, т.к она реализована в интерактивном плеере.</pre></p>
+					<p><strong>Как использовать:</strong> <pre>volume</pre><strong>Замечания:</strong> <pre>Не обязательно прописывать команду, т.к она реализована в интерактивном плеере.</pre></p>
 			</div>
 
 			<button class="collapsible music"><strong class="command">!shuffle</strong> - Перемешать плейлист или проголосовать за mix плейлиста</button>
 			<div class="content">
-					<p><strong>Как использовать:</strong> <pre>!shuffle</pre><strong>Замечания:</strong> <pre>Не обязательно прописывать команду, т.к она реализована в интерактивном плеере.</pre></p>
+					<p><strong>Как использовать:</strong> <pre>shuffle</pre><strong>Замечания:</strong> <pre>Не обязательно прописывать команду, т.к она реализована в интерактивном плеере.</pre></p>
 			</div>
 
 			<button class="collapsible music"><strong class="command">!equalizer</strong> - Изменить эквалайзер. Только DJ или Администратор имеет на это право</button>
 			<div class="content">
-					<p><strong>Как использовать:</strong> <pre>!equalizer</pre><strong>Замечания:</strong> <pre>Не обязательно прописывать команду, т.к она реализована в интерактивном плеере.</pre></p>
+					<p><strong>Как использовать:</strong> <pre>equalizer</pre><strong>Замечания:</strong> <pre>Не обязательно прописывать команду, т.к она реализована в интерактивном плеере.</pre></p>
 			</div>
 
 			<button class="collapsible music"><strong class="command">!queue, q, que</strong> - Посмотреть очередь воспроизведения</button>
 			<div class="content">
-					<p><strong>Как использовать:</strong> <pre>!queue</pre><strong></strong> <pre></pre></p>
+					<p><strong>Как использовать:</strong> <pre>queue</pre><strong></strong> <pre></pre></p>
 			</div>
 
 			<button class="collapsible music"><strong class="command">!nowplaying, np, current</strong> - Посмотреть что сейчас играет</button>
 			<div class="content">
-					<p><strong>Как использовать:</strong> <pre>!nowplaying</pre><strong>Замечания:</strong> <pre>Не обязательно прописывать команду, т.к она реализована в интерактивном плеере.</pre></p>
+					<p><strong>Как использовать:</strong> <pre>nowplaying</pre><strong>Замечания:</strong> <pre>Не обязательно прописывать команду, т.к она реализована в интерактивном плеере.</pre></p>
 			</div>
 
 			<button class="collapsible music"><strong class="command">!setdj @user</strong> - Назначить юзера DJ-ем</button>
 			<div class="content">
-					<p><strong>Как использовать:</strong> <pre>!setdj</pre><strong></strong> <pre></pre></p>
+					<p><strong>Как использовать:</strong> <pre>setdj</pre><strong></strong> <pre></pre></p>
 			</div>
 
 			<button class="collapsible games"><strong class="command">!слово</strong> - Игра в слова. Если разгадаете слово то получите 100 денег, если возьмете подсказку и угадаете слово получите 50 денег, если не угадаете -100, если напишите отмена -30. Если запросили подсказку, то отменить нельзя</button>
@@ -581,12 +532,12 @@
 
 			<button class="collapsible games"><strong class="command">!виселица или hangman</strong> - Игра Виселица. Игроку видно слово в виде # и возможность угадывания по одной букве. Не верная буква (ошиблись) - рисуется деталь Виселицы. Победителю +100 монет, Проигравшему -30 монет, Отказ от игры -30 монет</button>
 			<div class="content">
-					<p><strong>Как использовать:</strong> <pre>!слово</pre><strong></strong> <pre></pre></p>
+					<p><strong>Как использовать:</strong> <pre>слово</pre><strong></strong> <pre></pre></p>
 			</div>
 
 			<button class="collapsible games"><strong class="command">!города</strong> - Игра города, можете играть один или с другом</button>
 			<div class="content">
-					<p><strong>Как использовать:</strong> <pre>!города либо города @второйигрок</pre><strong>Замечания:</strong> <pre>Чтобы играть в одиночке просто напишите команду, а если с кем-то, пишите !города @user</pre></p>
+					<p><strong>Как использовать:</strong> <pre>города либо города @второйигрок</pre><strong>Замечания:</strong> <pre>Чтобы играть в одиночке просто напишите команду, а если с кем-то, пишите !города @user</pre></p>
 			</div>
 
 			<button class="collapsible antispam"><strong class="command">!warn или варн [юзер] или [ид] [причина]</strong> - Дать варн (предупреждение) пользователю.</button>
@@ -616,7 +567,7 @@
 
 			<button class="collapsible antispam"><strong class="command">!automute [минуты]</strong> - Установить время автомюта в минутах. </button>
 			<div class="content">
-					<p><strong>Как использовать:</strong> <pre>!automute [минуты]</pre><strong>Замечания:</strong> <pre>От разработчика: мьют сейчас работает, но не как хотелось бы. В дальнейшем он будет переработан</pre></p>
+					<p><strong>Как использовать:</strong> <pre>automute [минуты]</pre><strong>Замечания:</strong> <pre>От разработчика: мьют сейчас работает, но не как хотелось бы. В дальнейшем он будет переработан</pre></p>
 			</div>
 
 			<button class="collapsible antispam"><strong class="command">!inviteremover</strong> - Если пользователь отправит ссылку с инвайтом в канале, бот удалит сообщение, а юзер получит варн.</button>
@@ -626,7 +577,7 @@
 
 			<button class="collapsible antispam"><strong class="command">!spammention</strong> - Система антипингов (тегов)(спам пингами): бот удалит сообщение, а пользователь получит варн.</button>
 			<div class="content">
-					<p><strong>Как использовать:</strong> <pre>!spammention</pre><strong></strong> <pre></pre></p>
+					<p><strong>Как использовать:</strong> <pre>spammention</pre><strong></strong> <pre></pre></p>
 			</div>
 
 			<button class="collapsible antispam"><strong class="command">!anticaps</strong> - Система антикапс: бот удалит сообщение капсом (большими буквами), а пользователь получит варн.</button>
@@ -651,7 +602,7 @@
 
 			<button class="collapsible tickets"><strong class="command">!tickets addmoderators @роль</strong> - Добавление модераторов.</button>
 			<div class="content">
-					<p><strong>Как использовать:</strong> <pre>!tickets addmoderators @роль</pre><strong>Замечания:</strong> <pre>Только модераторы или тот кто открыл тикет сможет закрыть его.</pre></p>
+					<p><strong>Как использовать:</strong> <pre>tickets addmoderators @роль</pre><strong>Замечания:</strong> <pre>Только модераторы или тот кто открыл тикет сможет закрыть его.</pre></p>
 			</div>
 
 			<button class="collapsible tickets"><strong class="command">!tickets deletemoderators</strong> - Удаление модераторов.</button>
